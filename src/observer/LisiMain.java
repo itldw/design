@@ -20,5 +20,11 @@ public class LisiMain {
         hanFeiZi.addObserver(zhangsi);
 
         hanFeiZi.haveEat();
+
+        System.out.println("jdk:");
+        ////////////////jdk
+        HanFeiZi2 hanFeiZi2=new HanFeiZi2();
+        hanFeiZi2.haveFun();
+
     }
 }
